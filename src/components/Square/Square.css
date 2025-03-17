@@ -1,10 +1,15 @@
 .square {
-    background-color: #fff;
-    border: 2px solid #161616;
-    color:black;
-    font-size: 4em;
-    padding: 0.2em;
-    width: 2em;
-    height: 2em;
-    text-align: center;
-  }
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  color:black;
+  border: 2px solid #161616;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 100px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: top;
+}
