@@ -1,13 +1,34 @@
-# React + Vite
+# React Tic-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple implementation of the classic Tic-Tac-Toe game using React. It follows the official React documentation tutorial for building a Tic-Tac-Toe game.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run the project, make sure you have Node.js installed. Then, clone the repository and install the dependencies:
 
-## Expanding the ESLint configuration
+```bash
+git clone <repository-url>
+cd tictactoe
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-TicTacToe
+## Running the Application
+
+To start the application in development mode with hot module replacement:
+
+```bash
+npm run dev
+```
+
+Open your browser and go to `http://localhost:3000` to see the Tic-Tac-Toe game in action.
+
+## Building for Production
+
+To build the application for production:
+
+```bash
+npm run build
+```
+
+This will create an optimized build in the `dist` folder.
+
